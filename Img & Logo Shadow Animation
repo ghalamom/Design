@@ -1,0 +1,17 @@
+.k1-mask img {
+    -webkit-mask: linear-gradient(-60deg,#000 30%,#0005,#000 50%) right / 300% 100%;
+    mask: linear-gradient(-60deg,#000 30%,#0005,#000 50%) right / 300% 100%;
+    animation: nsshine 3s infinite
+}
+
+@keyframes nsshine {
+    0% {
+        -webkit-mask-position: 140% 140%;
+        mask-position: 140% 140%
+    }
+
+    100% {
+        -webkit-mask-position: -20% -20%;
+        mask-position: -20% -20%
+    }
+}
